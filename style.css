@@ -1,0 +1,156 @@
+.b-example-divider {
+    width: 100%;
+    height: 28px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(0, 0, 0, 0.075);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, 0.37), inset 0 .125em .5em rgba(0, 0, 0, 0.322);
+  }
+.navbar .ctn-bt:hover {
+      background: #024200;
+      color: #ffffff !important;
+      -webkit-box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 0 30px -5px rgba(0, 0, 0, 0.2); }
+nav ul {
+        list-style: none;
+        text-align: center;
+     }
+nav ul li {
+        display: inline-block;
+     }
+    .hero {
+      position: absolute;
+      top: 55%;
+      padding: 20px;
+    }
+    .bi-one {
+        font-size: 30px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+      }
+    
+      .bi-one:hover {
+        opacity: 0.7;
+      }
+      
+      .bi-facebook{
+        color: white;
+      }
+      
+      .bi-twitter {
+        color: white;
+      }
+      .bi-instagram{
+        color: #ffffff;
+      }
+      .bi-youtube{
+        color: #ffffff;
+      }
+      .bi-whatsapp{
+        color: #ffffff;
+      }
+      .bi-envelope-at{
+        color: #ffffff;
+      }
+      .bi-telephone-forward{
+        color: #ffffff;
+      }
+      .bi-telephone-inbound{
+        color: #ffffff;
+      }
+
+  
+      .img-thumbnail{
+        background-color: #00000000;
+        border: none;
+        width: 150px;
+      }
+      .nav-item-head {
+        color: #000000;
+        display: block;
+        font-style:bold;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 64px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0 #0000002a;
+    }
+    .card-ser h5{
+      font-weight: lighter;
+        text-align: center;
+    }
+    img.rounded-circle {
+      object-fit: cover;
+  }
+    input[type=text], select, textarea{
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+    @media only screen and (max-width:800px){
+      .navbar-collapse {
+          background: rgba(255, 255, 255, 0.486);
+      }
+  }
+  .bi-f{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  @media only screen and (max-width:800px){
+    .hero{
+        background: rgba(0, 0, 0, 0.315);
+        align-items: center;
+    }
+}
+.modal-content{
+  background-color: #070707bd;
+  color: #ffffff;
+}
+/* Custom class for small modal size */
+.small-modal {
+  max-width: 500px; /* Default max width */
+}
+
+/* Adjust modal size for medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .small-modal {
+      max-width: 400px;
+  }
+}
+
+/* Adjust modal size for small devices (max-width: 576px) */
+@media (max-width: 576px) {
+  .small-modal {
+      max-width: 300px;
+  }
+}
+.call-one a{
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+}
+.modal-body img {
+  width: 100%;
+  height: auto;
+}
+.modal-body {
+  text-align: center;
+}
+.modal-body a {
+  display: inline-block;
+  margin: 10px;
+}
+.modal-body .call-one a {
+  display: block;
+  margin: 0 auto;
+}
+.card-text{
+  font-weight: lighter;
+
+}

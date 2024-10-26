@@ -1,0 +1,36 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .overlay {
+    transition: background 0.3s;
+  }
+  .card:hover .overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+  }
+/* Add this CSS */
+.text-dark {
+    color: #000 !important; /* Makes the text color black */
+}
+
+/* You can also specifically target elements */
+h2, h5, p, li {
+    color: #000 !important; /* Ensures all the text elements are black */
+}
+  
